@@ -1,0 +1,7 @@
+{
+    "build": [ "sass", "jshint", "copy" ],
+    "default": [ "build" ],
+    "run": [ "clean", "build", "connect", "watch" ],
+    "deploy": [ "clean", "build", "publishWebsite" ]
+}
+  

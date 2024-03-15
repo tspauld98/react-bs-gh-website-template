@@ -1,0 +1,28 @@
+{
+    "//": [
+        "This package.json file is used to configure the basic grunt project template."
+    ],
+    "name": "static-bs-gh-website-template",
+    "description": "A basic grunt project template using Bootstrap and Github Pages.",
+    "version": "1.0.0",
+    "license": "ISC",
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.0",
+        "bootstrap-icons": "^1.11.2"
+    },
+    "devDependencies": {
+        "gh-pages": "^6.1.0",
+        "grunt": "^1.6.1",
+        "grunt-contrib-clean": "^2.0.0",
+        "grunt-contrib-connect": "^4.0.0",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-jshint": "^3.2.0",
+        "grunt-contrib-nodeunit": "^5.0.0",
+        "grunt-contrib-sass": "^2.0.0",
+        "grunt-contrib-uglify": "^5.2.2",
+        "grunt-contrib-watch": "^1.1.0",
+        "load-grunt-config": "^4.0.1",
+        "sass": "^1.69.5"
+    }
+}
