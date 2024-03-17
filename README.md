@@ -1,4 +1,6 @@
-# Basic Bootstrap Website Project Template for Github Pages
+# Basic React Bootstrap Website Project Template for Github Pages
+
+TODO - Refactor instructions to use Vite instead of Grunt.
 
 This is a basic template for a static website project using Grunt as the build tool and Github Pages for hosting.  This template is the basis for several other front-end project templates in development.  The contents of this template are based on the [Bootstrap Sass and JS Template](https://github.com/twbs/examples/blob/main/sass-js/README.md).
 
@@ -31,13 +33,13 @@ npm install
 4. Run the following command to build the project:
 
 ```bash
-grunt
+vite build
 ```
 
 5. Run the following command to build and start the local web server hosting the built project:
 
 ```bash
-grunt run
+vite
 ```
 
 6. Grunt and the web content in this template project is configured to live reload the target browser whenever a change is made to files in the `src/public` directory.  After running the `grunt run` command, simply open your preferred editor to make changes and once you have saved your changes, the browser will automatically reload to display the changes.
