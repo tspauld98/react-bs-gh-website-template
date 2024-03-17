@@ -16,7 +16,7 @@ function OffcanvasToggleButton() {
                 Toggle offcanvas
             </Button>
 
-            <Offcanvas show={show} onHide={handleClose} placement='end' aria-labelledby='offcanvasExampleLabel'>
+            <Offcanvas show={show} onHide={handleClose} placement='end' scroll='true' aria-labelledby='offcanvasExampleLabel'>
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title>Offcanvas</Offcanvas.Title>
                 </Offcanvas.Header>
